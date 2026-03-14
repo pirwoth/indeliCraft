@@ -17,7 +17,7 @@ export default function DesigningSection() {
           <Fade delay={0.1}>
             <div style={{ position:"relative", overflow:"hidden" }}>
               <div style={{ height:"60vh" }}>
-                <img src="/images/designing-tomorrow.jpg" alt="Design Tomorrow" />
+                <img src="/images/designing-tomorrow.png" alt="Design Tomorrow" />
                 <div style={{ position:"absolute", inset:0, background:"rgba(26,25,22,0.35)" }} />
               </div>
               <div style={{ position:"absolute", bottom:"2rem", left:"2rem" }}>
@@ -29,7 +29,7 @@ export default function DesigningSection() {
           <Fade delay={0.2}>
             <div style={{ position:"relative", overflow:"hidden" }}>
               <div style={{ height:"60vh" }}>
-                <img src="/images/designing-today.jpg" alt="Design Today" />
+                <img src="/images/designing-today.png" alt="Design Today" />
                 <div style={{ position:"absolute", inset:0, background:"rgba(26,25,22,0.35)" }} />
               </div>
               <div style={{ position:"absolute", bottom:"2rem", left:"2rem" }}>
