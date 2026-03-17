@@ -2,13 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IndeliCraft Website Development</title>
-    <meta property="og:image" content="https://bolt.new/static/og_default.png" />
+    <!-- Use a zero-width space so the browser tab shows only the favicon/icon -->
+    <title>&#8203;</title>
+    <meta name="description" content="Kampala's multidisciplinary design studio — architecture, interior design, 3D visualization, farm structures, branding & web development. Designing Spaces. Crafting Vision. Creating Impact." />
+    <meta name="author" content="IndeliCraft & Works Ltd" />
+    <meta name="keywords" content="architect Uganda, architecture Kampala, interior design Uganda, 3D visualization, farm structures Uganda, house plans Uganda, building design East Africa, IndeliCraft" />
+    <link rel="canonical" href="https://indelicraft.com" />
+    <meta name="robots" content="index, follow" />
+    <meta name="geo.region" content="UG" />
+    <meta name="geo.placename" content="Kampala" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="IndeliCraft & Works Ltd | Architecture & Design in Kampala, Uganda" />
+    <meta property="og:description" content="Designing Spaces. Crafting Vision. Creating Impact. Architecture, interior design, and digital solutions in Kampala, Uganda." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://indelicraft.com" />
+    <meta property="og:site_name" content="IndeliCraft & Works Ltd" />
+    <meta property="og:locale" content="en_UG" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://bolt.new/static/og_default.png" />
+    <meta name="twitter:title" content="IndeliCraft & Works Ltd | Architecture & Design in Kampala" />
+    <meta name="twitter:description" content="Designing Spaces. Crafting Vision. Creating Impact." />
+
+    <!-- Favicons and manifest (Apple, 32x32, 16x16, manifest) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "IndeliCraft & Works Ltd",
+      "url": "https://indelicraft.com",
+      "description": "Multidisciplinary design studio in Kampala, Uganda offering architecture, interior design, 3D visualization, farm structures, branding and web development.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kampala",
+        "addressCountry": "UG"
+      },
+      "telephone": ["+256775671562", "+256779206448"],
+      "email": "info@indelicraft.com",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Uganda"
+      },
+      "serviceType": ["Architectural Design", "Interior Design", "3D Visualization", "Farm Structures", "Branding Design", "Web Development"],
+      "priceRange": "$$",
+      "sameAs": []
+    }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
